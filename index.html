@@ -32,17 +32,17 @@
 <header class="header">
 <div class="container">
 	<nav class="navbar navbar-expand-lg navbar-light ">
-    <a class="navbar-brand " href="#" style="visibility: visible;"><div class="logo"> PORTFOLIO</div></a>
+    <a class="navbar-brand " href="#"><div class="logo"> PORTFOLIO</div></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="myDIV">
 		 <li class="nav-item">
-          <a class="nav-link " href="#">HOME</a>
+          <a class="nav-link" href="#bannerMain">HOME</a>
          </li>
 		 <li class="nav-item">
-          <a class="nav-link " href="#">ABOUT</a>
+          <a class="nav-link " href="#about">ABOUT</a>
          </li>
 		 <li class="nav-item">
           <a class="nav-link " href="#">SERVICES</a>
@@ -67,10 +67,10 @@
 	
 <!-- START bannerMain -->
 
-<section class="bannerMain">
+<section class="bannerMain" id="bannerMain">
 	<div class="container">
 		<div class="row align-items-center">
-		    <div class="col-lg-6">
+		    <div class="col-lg-6 col-md-6 col-sm-12">
 				<div class="bannerLeft">
 					<span class="subHeading">Hello!</span>
 					<h1>My name is <span>Abhishek Thakur</span></h1>
@@ -78,7 +78,7 @@
 					<a class="btn btnTheme" href="#">Know More</a>
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="col-lg-6 col-md-6 col-sm-12">
 				<div class="bannerRight">
 					<img class="img-fluid" src="images/abhii.png">
 				</div>
@@ -90,15 +90,15 @@
 
 <!-- START About -->
 
-<section class="about">
+<section class="about" id="about">
 	<div class="container">
 		<div class="row">
-		    <div class="col-lg-6">
+		    <div class="col-lg-6 col-md-6 col-sm-12">
 				<div class="aboutLeft">
 					<img class="img-fluid" src="images/abhi.png">
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="col-lg-6 col-md-6 col-sm-12">
 				<div class="aboutRight">
 					<h1 class="big">About</h1>
 					<h2>About Me</h2>
@@ -148,7 +148,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-4 col-md-4">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="page-bottom Services-1">
 					<a href="#">
 						<span class="icon"><i class="fas fa-laptop-code"></i></span>
@@ -158,7 +158,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="page-bottom Services-1">
 					<a href="#">
 						<span class="icon"><i class="fab fa-codepen"></i></span>
@@ -168,7 +168,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="page-bottom Services-1">
 					<a href="#">
 						<span class="icon"><i class="fas fa-vials"></i></span>
@@ -190,7 +190,7 @@
 <section class="projects">
 	<div class="container">
 		<div class="row ">
-			<div class="col-lg-12 col-md-12">
+			<div class="col-lg-12 col-md-12 col-sm-12">
 				<div class="page-top">
 				<h1 class="big">Projects</h1>
 					<h2>Projects</h2>
@@ -199,38 +199,38 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-4 col-md-4">
-				<div class="page-bottom img project align-items-center d-flex" style="background-image:  url(images/crypto_king.png);">
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<div class="page-bottom img project align-items-center d-flex" style="background-image:  url(images/cryptocon.png);">
 					<div class="overlay"></div>
 					<div class="text text-center">
-						<h3><a href="#">Cryptoking Landing Page Design</a></h3>
+						<h3><a href="https://cryptocon-one.vercel.app/" target="_blank">Cryptocon Landing Page Design</a></h3>
 						<span>Web Design</span>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-8 col-md-8">
-				<div class="page-bottom img project align-items-center d-flex" style="background-image:  url(images/mosto.png);">
-					<div class="overlay"></div>
-					<div class="text text-center">
-						<h3><a href="#">An App web Design</a></h3>
-						<span>Web Design</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-8 col-md-8">
+			<div class="col-lg-6 col-md-6 col-sm-6">
 				<div class="page-bottom img project align-items-center d-flex" style="background-image:  url(images/starbelly.png);">
 					<div class="overlay"></div>
 					<div class="text text-center">
-						<h3><a href="#">Restaurent web Design</a></h3>
+						<h3><a href="https://starbelly-cljx.vercel.app/" target="_blank">Restaurent web Design</a></h3>
 						<span>Web Design</span>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4">
+			<div class="col-lg-8 col-md-6 col-sm-6">
+				<div class="page-bottom img project align-items-center d-flex" style="background-image:  url(images/smart.png);">
+					<div class="overlay"></div>
+					<div class="text text-center">
+						<h3><a href="https://bitcoin-eight-omega.vercel.app/" target="_blank">Bitcoin Smart Contract web Design</a></h3>
+						<span>Web Design</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="page-bottom img project align-items-center d-flex" style="background-image:  url(images/tour.png);">
 					<div class="overlay"></div>
 					<div class="text text-center">
-						<h3><a href="#">Tour and Travel web Design</a></h3>
+						<h3><a href="#" target="_blank">Tour and Travel web Design</a></h3>
 						<span>Web Design</span>
 					</div>
 				</div>
@@ -247,35 +247,37 @@
 	<div class="container">
 	<div class="inner-wrap">
 		<div class="row">
-			<div class="page-top text-center">
-				<h1 class="big">Contact</h1>
-				<h2>Contact Me</h2>
-				<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<div class="page-top text-center">
+					<h1 class="big">Contact</h1>
+					<h2>Contact Me</h2>
+					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				</div>
 			</div>
 		</div>
 		<div class="page-bottom">
 			<div class="row">
-				<div class="col-lg-7">
+				<div class="col-lg-7 col-md-7 col-sm-6">
 				<div class="form-box">
 						<form>
 							<div class="row">
-								<div class="col-lg-6">
+								<div class="col-lg-6 col-md-6 col-sm-12 ">
 									<div class="form-group">
 										<input type="text" required class="form-control" placeholder="Your Name">
 									</div>
 								</div>
-								<div class="col-lg-6">
+								<div class="col-lg-6 col-md-6 col-sm-12">
 									<div class="form-group">
 										<input type="email" required name="email" class="form-control" placeholder="Your Email">
 									</div>
 								</div>
-								<div class="col-lg-12">
+								<div class="col-lg-12 col-md-12 col-sm-12">
 									<div class="form-group">
 										<input type="text" name="Subject" class="form-control" placeholder="Subject">
 									</div>
 								</div>
 					
-						<div class="col-lg-12">
+						<div class="col-lg-12 col-md-12 col-sm-12">
 									<div class="form-group">
 										<textarea name="message" class="form-control" placeholder="Type Your Message"></textarea>
 									</div>
@@ -287,7 +289,7 @@
 					</form>
 				</div>
 				</div>
-				<div class="col-lg-5">
+				<div class="col-lg-5 col-md-5 col-sm-6">
 					<div class="contactBottomRight">
 						<div class="info">
 							<ul>
@@ -362,7 +364,22 @@ $(document).ready(function() {
 
 <!-- END header -->
 
+<!-- start active -->
 
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+
+<!-- END active -->
 
 </body>
 </html>
