@@ -331,6 +331,8 @@ p {
 .info {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .info ul li {
     display: flex;
